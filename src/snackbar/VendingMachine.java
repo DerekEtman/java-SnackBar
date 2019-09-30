@@ -3,35 +3,35 @@ package snackbar;
 public class VendingMachine
 {
     // Fields
-    // private static int maxId = 0;
-    private String id;
+    private static int maxId = 0;
+    private int id;
     private String name;
 
     // Constructor
-    public VendingMachine(String name, String id)
+    public VendingMachine(String name)
     {
-        this.id = id;
+        maxId++;
+        this.id = maxId;
         this.name = name;
-
     }
 
     // Get & Set Methods
-    public int id()
+    public int getId()
     {
         return id;
     }
 
-    public void id(int id)
+    public void setId(int id)
     {
         this.id = id;
     }
 
-    public String name()
+    public String getName()
     {
         return name;
     }
 
-    public void name(String name)
+    public void setName(String name)
     {
         this.name = name;
     }

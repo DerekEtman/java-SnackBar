@@ -44,8 +44,13 @@ public class Customer
 
     // Other Methods
 
-    public double buyItem(double cashOnHand, double cost){
-        return this.cashOnHand - cost; 
+    public double addCash(double cash)
+    {
+        return this.cashOnHand = this.cashOnHand + cash;
+    }
+
+    public double buyItem(double cost, int quantity){
+        return this.cashOnHand = this.cashOnHand - cost * quantity; 
     }
 
 

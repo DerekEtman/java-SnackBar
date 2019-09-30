@@ -8,17 +8,17 @@ public class Snack
     private String name;
     private int quantity;
     private double cost;
-    private String vendId;    
+    private int vendId;    
 
     // constructor
-    public Snack(String name, int quantity, double cost, String vendId)
+    public Snack(String name, int quantity, double cost, int vendId)
     {
         maxId++;
         id = maxId;
         this.name = name;
         this.quantity = quantity;
         this.cost = cost;
-        this.vendId = vendId;
+        this.vendId = maxId;
     }
 
     // Methods - Getters & Setters
@@ -71,13 +71,18 @@ public class Snack
 
     // other Methods
 
-    public buySnack(int quantity)
+    public int buySnack(int quantity)
     {
-        this.quantity = this.quantity - quantity;
+       return  this.quantity = this.quantity - quantity;
     }
 
-    public totalCost(int quantity)
+    public double totalCost(double cost)
     {
         return this.cost * quantity;
+    }
+
+    public int addQuantity(int quantity)
+    {
+        return this.quantity = this.quantity + quantity;
     }
 }

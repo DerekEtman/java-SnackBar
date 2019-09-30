@@ -28,41 +28,40 @@ public class Main
         // Transaction 1
         jane.buyItem(soda.getCost(), 3);
         soda.buySnack(3);
-        System.out.println("Jane CashOnHand: " + jane.getCashOnHand());
-        System.out.println("Soda Left: " + soda.getQuantity());
+        System.out.println("T1 Jane CashOnHand: " + jane.getCashOnHand());
+        System.out.println("T1 Soda Left: " + soda.getQuantity());
 
         // Transaction 2
         jane.buyItem(pretzel.getCost(), 1);
         pretzel.buySnack(1);
-        System.out.println("Jane CashOnHand #2: " + jane.getCashOnHand());
-        System.out.println("Pretzels left: " + pretzel.getQuantity());
+        System.out.println("T2 Jane CashOnHand #2: " + jane.getCashOnHand());
+        System.out.println("T2 Pretzels left: " + pretzel.getQuantity());
 
         // Transaction 3
         bob.buyItem(soda.getCost(), 2);
         soda.buySnack(2);
-        System.out.println("Bob CashOnHand: " + bob.getCashOnHand());
-        System.out.println("Soda Left:" + soda.getQuantity());
+        System.out.println("T3 Bob CashOnHand: " + bob.getCashOnHand());
+        System.out.println("T3 Soda Left:" + soda.getQuantity());
 
         // Transaction 4
         jane.addCash(10);
-        System.out.println("Jane CashOnHand +10$: " + jane.getCashOnHand());
+        System.out.println("T4 Jane CashOnHand +10$: " + jane.getCashOnHand());
 
         // Transaction 5
         jane.buyItem(chocolateBar.getCost(), 1);
         chocolateBar.buySnack(1);
-        System.out.println("Jane CashOnHand #3: " + jane.getCashOnHand());
-        System.out.println("chocolateBar left: " + chocolateBar.getQuantity());
+        System.out.println("T5 Jane CashOnHand #3: " + jane.getCashOnHand());
+        System.out.println("T5 chocolateBar left: " + chocolateBar.getQuantity());
 
         // Transaction 6
         pretzel.addQuantity(12);
-        System.out.println("Pretzels left: " + pretzel.getQuantity());
+        System.out.println("T6 Pretzels left: " + pretzel.getQuantity());
 
         // Transaction 7 
         bob.buyItem(pretzel.getCost(), 3);
         pretzel.buySnack(3);
-        System.out.println("Bob CashOnHand #2: " + bob.getCashOnHand());
-        System.out.println("Pretzels Left: " + pretzel.getQuantity());
-        
-
+        System.out.println("T7 Bob CashOnHand #2: " + bob.getCashOnHand());
+        System.out.println("T7 Pretzels Left: " + pretzel.getQuantity());
+    
     }
 }

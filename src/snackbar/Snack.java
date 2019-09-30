@@ -85,4 +85,16 @@ public class Snack
     {
         return this.quantity = this.quantity + quantity;
     }
+
+
+    // Stretch
+    @Override
+    public String toString()
+    {
+        String rtnSnack = "name: " + name + "\n" + 
+        "Vendid: " + vendId + "\n" + 
+        "Quantity: " + quantity + "\n" + 
+        "totalcost: " + totalCost(this.cost) + "\n";
+        return rtnSnack;
+    }
 }

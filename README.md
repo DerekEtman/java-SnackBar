@@ -74,13 +74,13 @@ Customer can add cash, buy given total cash used in purchase, get and set name, 
 	
 * Processing
 
-1. Customer 1 buys 3 of snack 4. Print Customer 1 Cash on hand. Print quantity of snack 4.
-1. Customer 1 buys 1 of snack 3. Print Customer 1 Cash on hand. Print quantity of snack 3.
-1. Customer 2 buys 2 of snack 4. Print Customer 2 Cash on Hand. Print quantity of snack 4.
-1. Customer 1 finds $10. Print Customer 1 Cash on Hand.
-1. Customer 1 buys 1 of snack 2. Print Customer 1 Cash on Hand. Print quantity of snack 2.
-1. Add 12 more items to snack 3. Print quantity of snack 3.
-1. Customer 2 buys 3 of snack 3. Print Customer 2 Cash on hand. Print quantity of snack 3.
+1. jane buys 3 sodas. Print janes Cash on hand. Print quantity of soda.
+2. jane buys 1 of Pretzels. Print jane Cash on hand. Print quantity of Pretzels.
+3. bob buys 2 of soda. Print bob Cash on Hand. Print quantity of soda.
+4. jane finds $10. Print jane Cash on Hand.
+5. jane buys 1 of Chocolate Bar. Print jane Cash on Hand. Print quantity of Chocolate Bar.
+6. Add 12 more items to Pretzels. Print quantity of Pretzels.
+7. bob buys 3 of Pretzels. Print bob Cash on hand. Print quantity of Pretzels.
 
 * Stretch Goals
 
